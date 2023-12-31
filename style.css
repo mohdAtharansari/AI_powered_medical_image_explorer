@@ -1,0 +1,22 @@
+/* Ensure the body style applies */
+body, .stApp {
+    background-color: #f4f4f4 !important;
+    font-family: Arial, sans-serif !important;
+}
+
+/* Styling for Streamlit buttons */
+div.stButton > button {
+    background-color: #0d6efd !important;
+    color: white !important;
+    border-radius: 5px !important;
+    padding: 10px 20px !important;
+    border: none !important;
+    transition: background-color 0.3s, transform 0.3s !important;
+}
+
+div.stButton > button:hover {
+    background-color: #0a58ca !important;
+    transform: scale(1.05) !important;
+}
+
+/* Additional custom styles can be added here */
